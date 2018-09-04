@@ -23,7 +23,7 @@ public class Processor {
 	@StreamListener(InputSink.myInput)
 	@SendTo(OutputSource.myOutput)
 	public IngestionEvent receive(IngestionEvent event) {
-		log.trace("Received event {}", event);
+		log.info("Processing event {}", event);
 		return event;
 	}
 }
