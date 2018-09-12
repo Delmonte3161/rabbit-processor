@@ -5,8 +5,6 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Component;
 
-import com.cerner.cts.oss.mass.ingest.contract.IngestionEvent;
-
 import lombok.extern.slf4j.Slf4j;
 
 /**
